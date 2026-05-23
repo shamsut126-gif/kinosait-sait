@@ -1,0 +1,89 @@
+:root  {
+    --main-color: #131313 ;
+    --secondar-color: #51dfe9;
+    --accent-color: rgb(90, 153, 224) ;
+    --accent-color-hover: rgb(57, 107, 214);
+    --transition: 0.3s;
+}
+.movie__detail {
+    padding: 40px 0;
+}
+.movie__detail-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.movie__detail-content {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.movie__detail-poster {
+    width: 350px;
+    border-radius: 18px;
+}
+.movie__detail-info {
+    flex: 1;
+    min-width: 280px;
+}
+.movie__detail-desc {
+    font-size: 18px;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+.movie__detail-genres {
+    font-size: 18px;
+    color: #5a5858;
+    margin-bottom: 30px;
+}
+.movie__detail-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.movie__detail-facts-item {
+    text-align: center;
+    min-width: 80px;
+}
+.movie__detail-facts-title {
+    color: #5a5858;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.movie__detail-facts-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Звезды*/
+
+.movie__detail-stars {
+    display: flex;
+    gap: 10px;
+    
+}
+.movie__detail-stars img {
+    width: 45px;
+    height: 45px;
+}
+
+/* Актеры*/
+
+.movie__detail-actors-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.movie__detail-actors-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.movie__detail-actors-list li {
+    font-size: 16px;
+}
+.movie__detail-actors-list a {
+    color: var(--main-color);
+}

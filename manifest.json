@@ -1,0 +1,13 @@
+{
+    "name" : "Киносайт",
+    "description" : "Киносайт - лучшие фильмы у нас",
+    "display" : "standalone",
+    "background-color" : "#fff",
+    "orientation" : "portrait-primaty",
+    "icons" : [
+        {
+            "src" : "icons/Simplification.png",
+            "sizes" :  "192x192"
+        }
+    ]    
+}
