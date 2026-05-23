@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
         number.addEventListener('click', () =>{
             currentPage = index + 1;
             updateUI()
-            //getFilms(currentPage)
+            getFilms(currentPage)
         });
     });
 
@@ -69,6 +69,6 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    //getFilms(currentPage);
+    getFilms(currentPage);
 
 })
