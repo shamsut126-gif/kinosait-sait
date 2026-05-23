@@ -146,5 +146,5 @@ nextBtn.addEventListener('click', () => {
         renderMovies();
     }
 })
-//loadMovies()
+loadMovies()
 
