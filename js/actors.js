@@ -99,4 +99,4 @@ async function showActorInfo(actorId) {
 modalClose.addEventListener('click', () => {
     modal.classList.remove('active');
 })
-//loadActors()
+loadActors()
